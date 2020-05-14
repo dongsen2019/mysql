@@ -51,10 +51,10 @@ max_connections=200
 # 服务端使用的字符集默认为8比特编码的latin1字符集
 
 character-set-server=utf8
-
+ 
 #创建新表时将使用的默认存储引擎
 
-default-storage-engine=INNODB  
+default-storage-engine=INNODB
 
 
 *****  mysql sql_mode 之 NO_ENGINE_SUBSTITUTION  *****
