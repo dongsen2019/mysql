@@ -54,12 +54,12 @@ character-set-server=utf8
 
 #创建新表时将使用的默认存储引擎
 
-default-storage-engine=INNODB
+default-storage-engine=INNODB  
 
 
 *****  mysql sql_mode 之 NO_ENGINE_SUBSTITUTION  *****
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
-https://www.cnblogs.com/JiangLe/p/5621856.html   
+https://www.cnblogs.com/JiangLe/p/5621856.html
 
 
 4.在安装路径下新建一个空的data文件夹
