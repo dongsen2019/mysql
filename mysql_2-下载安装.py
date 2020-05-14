@@ -62,7 +62,7 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 https://www.cnblogs.com/JiangLe/p/5621856.html
 
 
-4.在安装路径下新建一个空的data文件夹
+4.在安装路径下新建一个空的data文件夹  
 
 
 
