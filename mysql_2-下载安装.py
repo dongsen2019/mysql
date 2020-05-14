@@ -1,4 +1,4 @@
-# 3.下载安装
+# 2.下载安装
 
 """
 1.下载mysql5.7.30 官网：mysql.com    window : x86, 64-bit, zip Archive
@@ -51,7 +51,7 @@ max_connections=200
 # 服务端使用的字符集默认为8比特编码的latin1字符集
 
 character-set-server=utf8
- 
+
 #创建新表时将使用的默认存储引擎
 
 default-storage-engine=INNODB
