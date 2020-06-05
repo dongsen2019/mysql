@@ -18,4 +18,22 @@ mysql> select max(age) as max_age,min(age) as min_age,sum(age) as sum_age,avg(ag
 |     456 |     123 |     579 | 289.5000 |
 +---------+---------+---------+----------+
 
+-- mysql> select count(*) from user;
++----------+
+| count(*) |
++----------+
+|        2 |
++----------+
+
+--mysql> select count(age) from user;
++------------+
+| count(age) |
++------------+
+|          2 |
++------------+
+
+-- 上面的两个统计，分别使用了 count(*)  和 count(id),结果目前都一样，区别是：
+count(*) 是按照users表中所有的列进行数据的统计，只要其中一列上有数据，就可以计算
+count(age) 是按照指定的 age 字段进行统计，也可以使用别的字段进行统计
+但是注意，如果指定的列上出现了NULL值，那么为NULL的这个数据不会被统计
 """
